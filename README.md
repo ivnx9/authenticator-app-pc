@@ -41,11 +41,9 @@ Import authenticator accounts using QR codes, generate time-based one-time passw
 **1. Clone the repository**
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/YOUR_REPOSITORY.git
-cd YOUR_REPOSITORY
+git clone https://github.com/ivnx9/authenticator-app-pc.git
+cd authenticator-app-pc
 ```
-
-Replace `YOUR_USERNAME` and `YOUR_REPOSITORY` with your actual GitHub username and repository name.
 
 **2. Install the dependencies**
 
@@ -56,7 +54,7 @@ py -m pip install pyotp "qrcode[pil]" opencv-python Pillow cryptography
 **3. Run the application**
 
 ```bash
-py authenticator_gui_settings.py
+py authenticator.py
 ```
 
 On the first launch, create a master password to protect your authenticator vault.
